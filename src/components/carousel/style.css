@@ -1,0 +1,57 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.item img {
+  width:100%;
+}
+
+.item-1 {
+  background-color: cornflowerblue;
+}
+.item-2 {
+  background-color: coral;
+}
+.item-3 {
+  background-color: darkseagreen;
+}
+
+
+
+
+
+.main-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.all-pages-container {
+  height: 100%;
+  display: flex;
+
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.arrowleft {
+  cursor: pointer;
+  position:absolute;
+  left: 39px;
+  z-index:2;
+}
+.arrowright {
+  cursor: pointer;
+  position:absolute;
+  right: 39px;
+}
